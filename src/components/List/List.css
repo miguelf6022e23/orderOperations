@@ -1,0 +1,92 @@
+.list-overflow-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom:15px;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+}
+
+.list-overflow-container li {
+  margin-top:5px;
+  border: 3px #DDDDDD solid;
+  border-radius: 10px;
+  overflow-y: visible;
+}
+
+.list-overflow-container li a {
+  color: #2A878C;
+}
+
+.list-overflow-container li div span {
+  padding-right: 20%;
+  display: inline-block;
+  padding-top:2px;
+}
+
+.list-overflow-container li div:first-child {
+  margin-left:0px;
+  padding: 0px;
+}
+
+.list-overflow-container li div p {
+  text-indent: 3mm;
+  position: ;
+  display: inline-block;
+  width: 80%;
+  margin: 0px;
+}
+
+.edit-btn{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.complete-btn{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+.list-overflow-container li div input {
+  border: 2px #DDDDDD solid;
+  border-radius: 3px;
+  margin-left:5px;
+}
+
+.list-overflow-container li div textarea {
+  border: 2px #DDDDDD solid;
+  border-radius: 3px;
+}
+
+.list-overflow-container li div select {
+  border: 2px #DDDDDD solid;
+  border-radius: 3px;
+}
+
+#newDeadline{
+  width: 85px;
+}
+
+#newPriority{
+  width: 40px;
+}
+
+#inEditDeadline{
+  width: 85px;
+}
+
+#inEditPriority{
+  width: 40px;
+}
+
+b {
+  color: blue;
+}
+
+i {
+  color: red
+}
